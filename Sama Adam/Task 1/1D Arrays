@@ -2,10 +2,10 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-#define max 30
+#define max 100
 int main() {
 
-    int n,arr[30],sum=0;
+    int n,arr[max],sum=0;
     scanf("%d",&n);
     for(int i=0;i<n;i++)
     {
